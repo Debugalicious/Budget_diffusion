@@ -1,0 +1,7 @@
+type: dataset
+  @misc{piedrafita2022nouns,
+        author = {Piedrafita, Miguel},
+        title = {Nouns auto-captioned},
+        year={2022},
+        howpublished= {\url{https://huggingface.co/datasets/m1guelpf/nouns/}}
+  }

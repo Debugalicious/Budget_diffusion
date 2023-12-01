@@ -1,4 +1,4 @@
-## Text2thesameImage Generation On Google Coral EdgeTPU
+## Text2Image Generation On Google Coral EdgeTPU
 
 Ahoy, my friends! Have you ever wanted to run a model similar to Stable Diffusion on a Google Coral? Well, keep searching because this isn't it. This is a basic text-to-image generation model running on the Google Coral. It's unstable, the quality is mediocre, but it's fun. How does it work? The model, a CNN, receives a simple text prompt. It then performs some magic on it, combines it with a random vector, and voilà, an image pops out. I've used a simple for-loop to re-feed the image into itself for refinement, but usually, after two iterations, it deteriorates. Initially, the model was intended to be a GAN, but I couldn't make it work, so I switched to a basic CNN to see if the Coral could generate any kind of image. This project is more of a starting point, aiming to train multiple models on individual segments of an image.
 
